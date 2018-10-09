@@ -10,7 +10,7 @@ function init(){
     playlist = $('#playlist');
     tracks = playlist.find('li a');
     len = tracks.length - 1;
-    audio[0].volume = .100;
+    audio[0].volume = 0.9;
     playlist.find('a').click(function(e){
         e.preventDefault();
         link = $(this);
